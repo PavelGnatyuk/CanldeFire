@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF702E8317A6970500B67642 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF702E8217A6970500B67642 /* UIKit.framework */; };
+		AF702E8517A6970500B67642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF702E8417A6970500B67642 /* Foundation.framework */; };
+		AF702E8717A6970500B67642 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF702E8617A6970500B67642 /* CoreGraphics.framework */; };
+		AF702E8D17A6970500B67642 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF702E8B17A6970500B67642 /* InfoPlist.strings */; };
+		AF702E8F17A6970500B67642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF702E8E17A6970500B67642 /* main.m */; };
+		AF702E9317A6970500B67642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF702E9217A6970500B67642 /* AppDelegate.m */; };
+		AF702E9517A6970500B67642 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF702E9417A6970500B67642 /* Default.png */; };
+		AF702E9717A6970500B67642 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF702E9617A6970500B67642 /* Default@2x.png */; };
+		AF702E9917A6970500B67642 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF702E9817A6970500B67642 /* Default-568h@2x.png */; };
+		AF702E9C17A6970500B67642 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF702E9B17A6970500B67642 /* ViewController.m */; };
+		AF702E9F17A6970500B67642 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF702E9D17A6970500B67642 /* ViewController_iPhone.xib */; };
+		AF702EA217A6970500B67642 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF702EA017A6970500B67642 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF702E7F17A6970500B67642 /* CandleFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandleFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF702E8217A6970500B67642 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF702E8417A6970500B67642 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF702E8617A6970500B67642 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF702E8A17A6970500B67642 /* CandleFire-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CandleFire-Info.plist"; sourceTree = "<group>"; };
+		AF702E8C17A6970500B67642 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF702E8E17A6970500B67642 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF702E9017A6970500B67642 /* CandleFire-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CandleFire-Prefix.pch"; sourceTree = "<group>"; };
+		AF702E9117A6970500B67642 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF702E9217A6970500B67642 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF702E9417A6970500B67642 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AF702E9617A6970500B67642 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AF702E9817A6970500B67642 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AF702E9A17A6970500B67642 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF702E9B17A6970500B67642 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF702E9E17A6970500B67642 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		AF702EA117A6970500B67642 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF702E7C17A6970500B67642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF702E8317A6970500B67642 /* UIKit.framework in Frameworks */,
+				AF702E8517A6970500B67642 /* Foundation.framework in Frameworks */,
+				AF702E8717A6970500B67642 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF702E7617A6970500B67642 = {
+			isa = PBXGroup;
+			children = (
+				AF702E8817A6970500B67642 /* CandleFire */,
+				AF702E8117A6970500B67642 /* Frameworks */,
+				AF702E8017A6970500B67642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF702E8017A6970500B67642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF702E7F17A6970500B67642 /* CandleFire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF702E8117A6970500B67642 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF702E8217A6970500B67642 /* UIKit.framework */,
+				AF702E8417A6970500B67642 /* Foundation.framework */,
+				AF702E8617A6970500B67642 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF702E8817A6970500B67642 /* CandleFire */ = {
+			isa = PBXGroup;
+			children = (
+				AF702E9117A6970500B67642 /* AppDelegate.h */,
+				AF702E9217A6970500B67642 /* AppDelegate.m */,
+				AF702E9A17A6970500B67642 /* ViewController.h */,
+				AF702E9B17A6970500B67642 /* ViewController.m */,
+				AF702E9D17A6970500B67642 /* ViewController_iPhone.xib */,
+				AF702EA017A6970500B67642 /* ViewController_iPad.xib */,
+				AF702E8917A6970500B67642 /* Supporting Files */,
+			);
+			path = CandleFire;
+			sourceTree = "<group>";
+		};
+		AF702E8917A6970500B67642 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF702E8A17A6970500B67642 /* CandleFire-Info.plist */,
+				AF702E8B17A6970500B67642 /* InfoPlist.strings */,
+				AF702E8E17A6970500B67642 /* main.m */,
+				AF702E9017A6970500B67642 /* CandleFire-Prefix.pch */,
+				AF702E9417A6970500B67642 /* Default.png */,
+				AF702E9617A6970500B67642 /* Default@2x.png */,
+				AF702E9817A6970500B67642 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF702E7E17A6970500B67642 /* CandleFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF702EA517A6970500B67642 /* Build configuration list for PBXNativeTarget "CandleFire" */;
+			buildPhases = (
+				AF702E7B17A6970500B67642 /* Sources */,
+				AF702E7C17A6970500B67642 /* Frameworks */,
+				AF702E7D17A6970500B67642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CandleFire;
+			productName = CandleFire;
+			productReference = AF702E7F17A6970500B67642 /* CandleFire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF702E7717A6970500B67642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pavel Gnatyuk";
+			};
+			buildConfigurationList = AF702E7A17A6970500B67642 /* Build configuration list for PBXProject "CandleFire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF702E7617A6970500B67642;
+			productRefGroup = AF702E8017A6970500B67642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF702E7E17A6970500B67642 /* CandleFire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF702E7D17A6970500B67642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF702E8D17A6970500B67642 /* InfoPlist.strings in Resources */,
+				AF702E9517A6970500B67642 /* Default.png in Resources */,
+				AF702E9717A6970500B67642 /* Default@2x.png in Resources */,
+				AF702E9917A6970500B67642 /* Default-568h@2x.png in Resources */,
+				AF702E9F17A6970500B67642 /* ViewController_iPhone.xib in Resources */,
+				AF702EA217A6970500B67642 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF702E7B17A6970500B67642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF702E8F17A6970500B67642 /* main.m in Sources */,
+				AF702E9317A6970500B67642 /* AppDelegate.m in Sources */,
+				AF702E9C17A6970500B67642 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF702E8B17A6970500B67642 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF702E8C17A6970500B67642 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF702E9D17A6970500B67642 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF702E9E17A6970500B67642 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AF702EA017A6970500B67642 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF702EA117A6970500B67642 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF702EA317A6970500B67642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF702EA417A6970500B67642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF702EA617A6970500B67642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CandleFire/CandleFire-Prefix.pch";
+				INFOPLIST_FILE = "CandleFire/CandleFire-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF702EA717A6970500B67642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CandleFire/CandleFire-Prefix.pch";
+				INFOPLIST_FILE = "CandleFire/CandleFire-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF702E7A17A6970500B67642 /* Build configuration list for PBXProject "CandleFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF702EA317A6970500B67642 /* Debug */,
+				AF702EA417A6970500B67642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF702EA517A6970500B67642 /* Build configuration list for PBXNativeTarget "CandleFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF702EA617A6970500B67642 /* Debug */,
+				AF702EA717A6970500B67642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF702E7717A6970500B67642 /* Project object */;
+}
