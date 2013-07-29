@@ -7,11 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "CandleFire.h"
+
+@interface AppDelegate ()
+
+@property (retain) CandleFire *candle;
+
+@end
 
 @implementation AppDelegate
 
 - (void)dealloc
 {
+    [_candle release];
     [_window release];
     [super dealloc];
 }
@@ -29,6 +37,8 @@
     UITapGestureRecognizer *recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapInView:)];
     [view addGestureRecognizer:recognizer];
     
+    CandleFire *candle = [CandleFire candle];
+    [self setCandle:candle];
     
     [recognizer release];
     [view release];
@@ -74,5 +84,10 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (NSArray *)makeImages
+{
+    NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:64];
+    
+}
 
 @end

@@ -16,7 +16,7 @@
 		AF702E9517A6970500B67642 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF702E9417A6970500B67642 /* Default.png */; };
 		AF702E9717A6970500B67642 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF702E9617A6970500B67642 /* Default@2x.png */; };
 		AF702E9917A6970500B67642 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF702E9817A6970500B67642 /* Default-568h@2x.png */; };
-		AF702EA917A699CC00B67642 /* candle_fire.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF702EA817A699CB00B67642 /* candle_fire.bundle */; };
+		AF702EAC17A69ABA00B67642 /* CandleFire.m in Sources */ = {isa = PBXBuildFile; fileRef = AF702EAB17A69ABA00B67642 /* CandleFire.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +34,8 @@
 		AF702E9617A6970500B67642 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AF702E9817A6970500B67642 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AF702EA817A699CB00B67642 /* candle_fire.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = candle_fire.bundle; sourceTree = "<group>"; };
+		AF702EAA17A69ABA00B67642 /* CandleFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandleFire.h; sourceTree = "<group>"; };
+		AF702EAB17A69ABA00B67642 /* CandleFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandleFire.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				AF702EA817A699CB00B67642 /* candle_fire.bundle */,
+				AF702EAA17A69ABA00B67642 /* CandleFire.h */,
+				AF702EAB17A69ABA00B67642 /* CandleFire.m */,
 				AF702E9117A6970500B67642 /* AppDelegate.h */,
 				AF702E9217A6970500B67642 /* AppDelegate.m */,
 				AF702E8917A6970500B67642 /* Supporting Files */,
@@ -157,7 +161,6 @@
 				AF702E9517A6970500B67642 /* Default.png in Resources */,
 				AF702E9717A6970500B67642 /* Default@2x.png in Resources */,
 				AF702E9917A6970500B67642 /* Default-568h@2x.png in Resources */,
-				AF702EA917A699CC00B67642 /* candle_fire.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +173,7 @@
 			files = (
 				AF702E8F17A6970500B67642 /* main.m in Sources */,
 				AF702E9317A6970500B67642 /* AppDelegate.m in Sources */,
+				AF702EAC17A69ABA00B67642 /* CandleFire.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
