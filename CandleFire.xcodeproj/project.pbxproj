@@ -16,9 +16,6 @@
 		AF702E9517A6970500B67642 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF702E9417A6970500B67642 /* Default.png */; };
 		AF702E9717A6970500B67642 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF702E9617A6970500B67642 /* Default@2x.png */; };
 		AF702E9917A6970500B67642 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF702E9817A6970500B67642 /* Default-568h@2x.png */; };
-		AF702E9C17A6970500B67642 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF702E9B17A6970500B67642 /* ViewController.m */; };
-		AF702E9F17A6970500B67642 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF702E9D17A6970500B67642 /* ViewController_iPhone.xib */; };
-		AF702EA217A6970500B67642 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF702EA017A6970500B67642 /* ViewController_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +32,6 @@
 		AF702E9417A6970500B67642 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AF702E9617A6970500B67642 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AF702E9817A6970500B67642 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		AF702E9A17A6970500B67642 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AF702E9B17A6970500B67642 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AF702E9E17A6970500B67642 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		AF702EA117A6970500B67642 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +80,6 @@
 			children = (
 				AF702E9117A6970500B67642 /* AppDelegate.h */,
 				AF702E9217A6970500B67642 /* AppDelegate.m */,
-				AF702E9A17A6970500B67642 /* ViewController.h */,
-				AF702E9B17A6970500B67642 /* ViewController.m */,
-				AF702E9D17A6970500B67642 /* ViewController_iPhone.xib */,
-				AF702EA017A6970500B67642 /* ViewController_iPad.xib */,
 				AF702E8917A6970500B67642 /* Supporting Files */,
 			);
 			path = CandleFire;
@@ -165,8 +154,6 @@
 				AF702E9517A6970500B67642 /* Default.png in Resources */,
 				AF702E9717A6970500B67642 /* Default@2x.png in Resources */,
 				AF702E9917A6970500B67642 /* Default-568h@2x.png in Resources */,
-				AF702E9F17A6970500B67642 /* ViewController_iPhone.xib in Resources */,
-				AF702EA217A6970500B67642 /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +166,6 @@
 			files = (
 				AF702E8F17A6970500B67642 /* main.m in Sources */,
 				AF702E9317A6970500B67642 /* AppDelegate.m in Sources */,
-				AF702E9C17A6970500B67642 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,22 +178,6 @@
 				AF702E8C17A6970500B67642 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AF702E9D17A6970500B67642 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF702E9E17A6970500B67642 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		AF702EA017A6970500B67642 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF702EA117A6970500B67642 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -310,6 +280,7 @@
 				AF702EA717A6970500B67642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

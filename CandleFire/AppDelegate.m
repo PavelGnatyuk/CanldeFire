@@ -8,29 +8,43 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
-
 @implementation AppDelegate
 
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil] autorelease];
-    } else {
-        self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil] autorelease];
-    }
-    self.window.rootViewController = self.viewController;
+    CGRect bounds = [[UIScreen mainScreen] bounds];
+    UIWindow *window = [[UIWindow alloc] initWithFrame:bounds];
+    UIViewController *controller = [[UIViewController alloc] init];
+    UIView *view = [[UIView alloc] initWithFrame:bounds];
+    [view setBackgroundColor:[UIColor grayColor]];
+    [controller setView:view];
+    [window setRootViewController:controller];
+
+    UITapGestureRecognizer *recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapInView:)];
+    [view addGestureRecognizer:recognizer];
+    
+    
+    [recognizer release];
+    [view release];
+    [controller release];
+    [self setWindow:window];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)tapInView:(id)sender
+{
+    NSLog(@"Entering %s", __FUNCTION__);
+    UITapGestureRecognizer *recognizer = (UITapGestureRecognizer *)sender;
+    if ( [recognizer state] == UIGestureRecognizerStateRecognized ) {
+        
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -59,5 +73,6 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
 
 @end
