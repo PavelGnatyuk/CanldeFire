@@ -33,7 +33,6 @@
 		AF702E9417A6970500B67642 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AF702E9617A6970500B67642 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AF702E9817A6970500B67642 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		AF702EA817A699CB00B67642 /* candle_fire.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = candle_fire.bundle; sourceTree = "<group>"; };
 		AF702EAA17A69ABA00B67642 /* CandleFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandleFire.h; sourceTree = "<group>"; };
 		AF702EAB17A69ABA00B67642 /* CandleFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandleFire.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +81,6 @@
 		AF702E8817A6970500B67642 /* CandleFire */ = {
 			isa = PBXGroup;
 			children = (
-				AF702EA817A699CB00B67642 /* candle_fire.bundle */,
 				AF702EAA17A69ABA00B67642 /* CandleFire.h */,
 				AF702EAB17A69ABA00B67642 /* CandleFire.m */,
 				AF702E9117A6970500B67642 /* AppDelegate.h */,
